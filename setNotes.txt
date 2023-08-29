@@ -1,0 +1,14 @@
+what is a set?
+ - collection of objects
+        same types (Objects)
+        unique (no duplicates)
+        your object must have 'custom' equals method
+
+Set Operations
+    intersection- { A B C D} * {C D E F} = {C D} (What they have in common)
+    union- { A B C D } + { C D E F} = { A B C D E F} (One of each value regardless of quantity)
+    xor- { A B C D} xor { C D E F} = union - intersect
+    difference- { A B C D} * {C D E F} = { A B} (C and D get subtracted from being in both, E and F don't matter)
+
+Shallow copy- compares attributes of objects
+Deep copy - compares attributes and location of objects
